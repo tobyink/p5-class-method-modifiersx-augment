@@ -1,0 +1,12 @@
+# This file provides instructions for packaging.
+
+`Class-Method-ModifiersX-Augment`
+	perl_version_from m`Class::Method::ModifiersX::Augment`;
+	version_from      m`Class::Method::ModifiersX::Augment`;
+	readme_from       m`Class::Method::ModifiersX::Augment`;
+	test_requires     p`Test::More 0.61`;
+	requires          p`Class::Method::Modifiers`;
+	recommends        p`Moo`;
+	recommends        p`MRO::Compat`;
+.
+
