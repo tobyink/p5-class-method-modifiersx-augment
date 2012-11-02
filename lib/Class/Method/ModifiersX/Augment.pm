@@ -126,8 +126,8 @@ Class::Method::ModifiersX::Augment - adds "augment method => sub {...}" support 
    done_testing();
 
 (Note that the synopsis shows Perl v5.14+ syntax for package declaration,
-but this module and its accompanying Moo and Role::Tiny wrappers support
-Perl v5.8 and above.)
+but this module and its accompanying Moo wrapper support Perl v5.8 and 
+above.)
 
 =head1 DESCRIPTION
 
@@ -203,7 +203,7 @@ L<Class::Method::Modifiers> package (which is available from CPAN).
 
 L<MRO::Compat> is also required for Perl versions earlier than 5.010.
 
-The accompanying module L<MooX::Augment> requires L<Moo> . However, the
+The accompanying module L<MooX::Augment> requires L<Moo>. However, the
 installation scripts for this distribution do not check that this is
 installed. If you use L<MooX::Augment>, it is assumed that you have installed
 its dependencies separately.
