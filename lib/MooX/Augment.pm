@@ -7,7 +7,7 @@ no warnings qw( once void uninitialized );
 
 BEGIN {
 	$MooX::Augment::AUTHORITY = 'cpan:TOBYINK';
-	$MooX::Augment::VERSION   = '0.001';
+	$MooX::Augment::VERSION   = '0.002';
 }
 
 sub import

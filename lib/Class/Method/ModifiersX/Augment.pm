@@ -6,7 +6,7 @@ use warnings;
 
 BEGIN {
 	$Class::Method::ModifiersX::Augment::AUTHORITY = 'cpan:TOBYINK';
-	$Class::Method::ModifiersX::Augment::VERSION   = '0.001';
+	$Class::Method::ModifiersX::Augment::VERSION   = '0.002';
 }
 
 use base qw(Exporter);
